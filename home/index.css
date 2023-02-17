@@ -18,7 +18,7 @@
   text-align: left;
   white-space: nowrap;
   line-height: 35px;
-  margin: 10px 0 0 11px;
+  margin: 0 auto;
 }
 
 .image-wrapper_1 {
@@ -73,7 +73,7 @@
   height: 187px;
   border: 1.5px solid rgba(242, 242, 242, 1);
   justify-content: flex-center;
-  margin: 0 0 0 0;
+  margin: 0 auto;
   border-radius: 20px;
 }
 
@@ -109,7 +109,7 @@
   height: 187px;
   border: 1.5px solid rgba(242, 242, 242, 1);
   justify-content: flex-center;
-  margin: 0 0 0 0;
+  margin: 0 auto;
   border-radius: 20px;
 }
 
@@ -145,7 +145,7 @@
   height: 187px;
   border: 1.5px solid rgba(242, 242, 242, 1);
   justify-content: flex-center;
-  margin: 0 0 0 0;
+  margin: 0 auto;
   border-radius: 20px;
 }
 
