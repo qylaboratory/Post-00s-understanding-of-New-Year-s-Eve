@@ -1,172 +1,177 @@
-html {
-  font-size: 37.5px;
-}
-
 .page {
   background-color: rgba(255, 255, 255, 1);
   position: relative;
-  width: 11.467rem;
-  height: 24.854rem;
+  width: auto;
+  height: auto;
   overflow: hidden;
+  margin:0 auto;
 }
 
 .text_1 {
-  width: 9.974rem;
-  height: 1.28rem;
+  width: auto;
+  height: 48px;
   overflow-wrap: break-word;
   color: rgba(61, 61, 61, 1);
-  font-size: 0.8rem;
+  font-size: 25px;
   font-family: HarmonyOS Sans-Bold;
-  font-weight: 700;
+  font-weight: 650;
   text-align: left;
   white-space: nowrap;
-  line-height: 0.934rem;
-  margin: 0.267rem 0 0 0.294rem;
+  line-height: 35px;
+  margin: 10px 0 0 11px;
 }
 
 .image-wrapper_1 {
-  width: 10.907rem;
-  height: 9.014rem;
+  width: auto;
+  max-width:350px;
+  height: 338px;
   flex-wrap: wrap;
-  margin: 0.054rem 0 0 0.294rem;
+  margin: 0 auto;
 }
 
 .image_1-0 {
-  width: 5.334rem;
-  height: 4.374rem;
-  margin: 0 0.24rem 0.267rem 0;
+  width: auto;
+  max-width:170px;
+  height: 164px;
+  margin: 0 5px 5px 0;
 }
 
 .image_1-1 {
-  width: 5.334rem;
-  height: 4.374rem;
-  margin: 0 0.24rem 0.267rem 0;
+  width: auto;
+  max-width:170px;
+  height: 164px;
+  margin: 0 5px 5px 0;
   margin-right: 0;
 }
 
 .image_1-2 {
-  width: 5.334rem;
-  height: 4.374rem;
-  margin: 0 0.24rem 0.267rem 0;
+  width: auto;
+  max-width:170px;
+  height: 164px;
+  margin: 0 5px 5px 0;
   margin-bottom: 0;
 }
 
 .image_1-3 {
-  width: 5.334rem;
-  height: 4.374rem;
-  margin: 0 0.24rem 0.267rem 0;
+  width: auto;
+  max-width:170px;
+  height: 164px;
+  margin: 0 5px 5px 0;
   margin-right: 0;
   margin-bottom: 0;
 }
 
 .list_1 {
-  width: 10.96rem;
-  height: 15.6rem;
+  width: 411px;
+  height: 585px;
   justify-content: space-between;
-  margin: 0.32rem 0 1.68rem 0.267rem;
+  margin: 12px 0 63px 10px;
 }
 
 .text-group_1-0 {
-  width: 10.934rem;
-  height: 4.987rem;
+  max-width:340px;
+  height: 187px;
   border: 1.5px solid rgba(242, 242, 242, 1);
   justify-content: flex-center;
-  margin: 0 0 0.32rem 0.027rem;
+  margin: 0 0 0 0;
+  border-radius: 20px;
 }
 
 .text_2-0 {
-  width: 6.774rem;
-  height: 0.934rem;
+  width: 254px;
+  height: 35px;
   overflow-wrap: break-word;
   color: rgba(0, 0, 0, 1);
-  font-size: 0.64rem;
+  font-size: 24px;
   font-family: Source Han Sans CN-Regular;
   font-weight: NaN;
   text-align: left;
   white-space: nowrap;
-  line-height: 0.934rem;
-  margin: 0.694rem 0 0 0.534rem;
+  line-height: 35px;
+  margin: 26px 0 0 7px;
 }
 
 .text_3-0 {
-  width: 6.774rem;
-  height: 2.454rem;
+  width: auto;
+  height: 92px;
   overflow-wrap: break-word;
   color: rgba(26, 26, 26, 1);
-  font-size: 0.426rem;
+  font-size: 16px;
   font-family: Source Han Sans CN-Regular;
   font-weight: NaN;
   text-align: left;
-  line-height: 0.614rem;
-  margin: 0.214rem 0 0.694rem 0.534rem;
+  line-height: 23px;
+  margin: 8px 0 26px 7px;
 }
 
 .text-group_1-1 {
-  width: 10.934rem;
-  height: 4.987rem;
+  max-width:340px;
+  height: 187px;
   border: 1.5px solid rgba(242, 242, 242, 1);
   justify-content: flex-center;
-  margin: 0 0 0.32rem 0.027rem;
+  margin: 0 0 0 0;
+  border-radius: 20px;
 }
 
 .text_2-1 {
-  width: 6.774rem;
-  height: 0.934rem;
+  width: auto;
+  height: 35px;
   overflow-wrap: break-word;
   color: rgba(0, 0, 0, 1);
-  font-size: 0.64rem;
+  font-size: 24px;
   font-family: Source Han Sans CN-Regular;
   font-weight: NaN;
   text-align: left;
   white-space: nowrap;
-  line-height: 0.934rem;
-  margin: 0.694rem 0 0 0.534rem;
+  line-height: 35px;
+  margin: 26px 0 0 7px;
 }
 
 .text_3-1 {
-  width: 6.774rem;
-  height: 2.454rem;
+  width: auto;
+  height: 92px;
   overflow-wrap: break-word;
   color: rgba(26, 26, 26, 1);
-  font-size: 0.426rem;
+  font-size: 16px;
   font-family: Source Han Sans CN-Regular;
   font-weight: NaN;
   text-align: left;
-  line-height: 0.614rem;
-  margin: 0.214rem 0 0.694rem 0.534rem;
+  line-height: 23px;
+  margin: 8px 0 26px 7px;
 }
 
 .text-group_1-2 {
-  width: 10.934rem;
-  height: 4.987rem;
+  max-width:340px;
+  height: 187px;
   border: 1.5px solid rgba(242, 242, 242, 1);
   justify-content: flex-center;
-  margin: 0 0 0.32rem 0.027rem;
+  margin: 0 0 0 0;
+  border-radius: 20px;
 }
 
 .text_2-2 {
-  width: 6.774rem;
-  height: 0.934rem;
+  width: auto;
+  height: 35px;
   overflow-wrap: break-word;
   color: rgba(0, 0, 0, 1);
-  font-size: 0.64rem;
+  font-size: 24px;
   font-family: Source Han Sans CN-Regular;
   font-weight: NaN;
   text-align: left;
   white-space: nowrap;
-  line-height: 0.934rem;
-  margin: 0.694rem 0 0 0.534rem;
+  line-height: 35px;
+  margin: 26px 0 0 7px;
 }
 
 .text_3-2 {
-  width: 6.774rem;
-  height: 2.454rem;
+  width: auto;
+  height: 92px;
   overflow-wrap: break-word;
   color: rgba(26, 26, 26, 1);
-  font-size: 0.426rem;
+  font-size: 16px;
   font-family: Source Han Sans CN-Regular;
   font-weight: NaN;
   text-align: left;
-  line-height: 0.614rem;
-  margin: 0.214rem 0 0.694rem 0.534rem;
+  line-height: 23px;
+  margin: 8px 0 26px 7px;
 }

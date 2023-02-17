@@ -1,168 +1,56 @@
 .page {
   background-color: rgba(255, 255, 255, 1);
   position: relative;
-  width: 430px;
+  width: auto;
   height: auto;
+  margin:0 auto;
   overflow: hidden;
 }
 
+@font-face {
+  font-family: myFirstFont;
+  src: url(./YouSheBiaoTiHei-2.ttf);
+}
+
+.box_1 {
+  height: auto;
+  background: url(./img/MasterDDSSlicePNG8b5c4e166169d619084d8e78050d64c2.png)
+    100% no-repeat;
+  background-size: 100% 100%;
+  min-width: 350;
+  margin:0 0 0 0;
+}
+
+.block_1 {
+  background-color: rgba(25, 18, 33, 0.63);
+  width: 100%;
+  height: auto;
+  margin:0 auto;
+}
+
 .text_1 {
-  width: 374px;
-  height: 48px;
+  font-family: myFirstFont;
+  width: 226px;
+  height: 162px;
   overflow-wrap: break-word;
-  color: rgba(61, 61, 61, 1);
-  font-size: 30px;
-  font-family: HarmonyOS Sans-Bold;
-  font-weight: 700;
+  color: rgba(175, 141, 141, 1);
+  font-size: 64px;
+  font-weight: NaN;
   text-align: left;
-  white-space: nowrap;
-  line-height: 35px;
-  margin: 10px 0 0 11px;
+  line-height: 83px;
+  margin: 315px auto 0 auto;
 }
 
 .image-wrapper_1 {
-  width: 409px;
-  height: 338px;
-  flex-wrap: wrap;
-  margin: 2px 0 0 11px;
+  background-color: rgba(181, 173, 137, 0.21);
+  border-radius: 50%;
+  height: 83px;
+  width: 83px;
+  margin: 280px auto 113px auto;
 }
 
-.image_1-0 {
-  width: 200px;
-  height: 164px;
-  margin: 0 9px 10px 0;
-}
-
-.image_1-1 {
-  width: 200px;
-  height: 164px;
-  margin: 0 9px 10px 0;
-  margin-right: 0;
-}
-
-.image_1-2 {
-  width: 200px;
-  height: 164px;
-  margin: 0 9px 10px 0;
-  margin-bottom: 0;
-}
-
-.image_1-3 {
-  width: 200px;
-  height: 164px;
-  margin: 0 9px 10px 0;
-  margin-right: 0;
-  margin-bottom: 0;
-}
-
-.list_1 {
-  width: 411px;
-  height: 585px;
-  justify-content: space-between;
-  margin: 12px 0 63px 10px;
-}
-
-.text-group_1-0 {
-  width: 410px;
-  height: 187px;
-  border: 1.5px solid rgba(242, 242, 242, 1);
-  justify-content: flex-center;
-  margin: 0 0 12px 1px;
-}
-
-.text_2-0 {
-  width: 254px;
-  height: 35px;
-  overflow-wrap: break-word;
-  color: rgba(0, 0, 0, 1);
-  font-size: 24px;
-  font-family: Source Han Sans CN-Regular;
-  font-weight: NaN;
-  text-align: left;
-  white-space: nowrap;
-  line-height: 35px;
-  margin: 26px 0 0 20px;
-}
-
-.text_3-0 {
-  width: 254px;
-  height: 92px;
-  overflow-wrap: break-word;
-  color: rgba(26, 26, 26, 1);
-  font-size: 16px;
-  font-family: Source Han Sans CN-Regular;
-  font-weight: NaN;
-  text-align: left;
-  line-height: 23px;
-  margin: 8px 0 26px 20px;
-}
-
-.text-group_1-1 {
-  width: 410px;
-  height: 187px;
-  border: 1.5px solid rgba(242, 242, 242, 1);
-  justify-content: flex-center;
-  margin: 0 0 12px 1px;
-}
-
-.text_2-1 {
-  width: 254px;
-  height: 35px;
-  overflow-wrap: break-word;
-  color: rgba(0, 0, 0, 1);
-  font-size: 24px;
-  font-family: Source Han Sans CN-Regular;
-  font-weight: NaN;
-  text-align: left;
-  white-space: nowrap;
-  line-height: 35px;
-  margin: 26px 0 0 20px;
-}
-
-.text_3-1 {
-  width: 254px;
-  height: 92px;
-  overflow-wrap: break-word;
-  color: rgba(26, 26, 26, 1);
-  font-size: 16px;
-  font-family: Source Han Sans CN-Regular;
-  font-weight: NaN;
-  text-align: left;
-  line-height: 23px;
-  margin: 8px 0 26px 20px;
-}
-
-.text-group_1-2 {
-  width: 410px;
-  height: 187px;
-  border: 1.5px solid rgba(242, 242, 242, 1);
-  justify-content: flex-center;
-  margin: 0 0 12px 1px;
-}
-
-.text_2-2 {
-  width: 254px;
-  height: 35px;
-  overflow-wrap: break-word;
-  color: rgba(0, 0, 0, 1);
-  font-size: 24px;
-  font-family: Source Han Sans CN-Regular;
-  font-weight: NaN;
-  text-align: left;
-  white-space: nowrap;
-  line-height: 35px;
-  margin: 26px 0 0 20px;
-}
-
-.text_3-2 {
-  width: 254px;
-  height: 92px;
-  overflow-wrap: break-word;
-  color: rgba(26, 26, 26, 1);
-  font-size: 16px;
-  font-family: Source Han Sans CN-Regular;
-  font-weight: NaN;
-  text-align: left;
-  line-height: 23px;
-  margin: 8px 0 26px 20px;
+.label_1 {
+  width: 30px;
+  height: 30px;
+  margin: 27px 0 0 29px;
 }
