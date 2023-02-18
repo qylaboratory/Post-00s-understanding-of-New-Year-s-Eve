@@ -85,12 +85,13 @@
   height: 797px;
   width: auto;
   max-width:350px;
-  margin: 118px 15px 0 -415px;
+  margin: 0 auto;
 }
 
 .text_4 {
-  width: 371px;
-  height: 762px;
+  width: auto;
+  max-width:340px;
+  height: auto;
   overflow-wrap: break-word;
   color: rgba(61, 61, 61, 1);
   font-size: 20px;
@@ -98,5 +99,5 @@
   font-weight: NaN;
   text-align: left;
   line-height: 29px;
-  margin: 18px 0 0 15px;
+  margin: 0 auto;
 }
