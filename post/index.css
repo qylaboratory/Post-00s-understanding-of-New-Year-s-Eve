@@ -82,7 +82,7 @@
 .text-wrapper_1 {
   background-color: rgba(246, 246, 246, 0.5);
   border-radius: 10px;
-  height: 797px;
+  height: auto;
   width: auto;
   max-width:350px;
   margin: 0 auto;
@@ -90,7 +90,7 @@
 
 .text_4 {
   width: auto;
-  max-width:340px;
+  max-width:330px;
   height: auto;
   overflow-wrap: break-word;
   color: rgba(61, 61, 61, 1);
