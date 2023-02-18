@@ -65,7 +65,7 @@
   width: 411px;
   height: 585px;
   justify-content: space-between;
-  margin: 12px 0 63px 10px;
+  margin: 0 auto;
 }
 
 .text-group_1-0 {
@@ -107,6 +107,7 @@
 
 .text-group_1-1 {
   max-width:340px;
+  width: auto;
   height: 187px;
   border: 1.5px solid rgba(242, 242, 242, 1);
   justify-content: flex-center;
