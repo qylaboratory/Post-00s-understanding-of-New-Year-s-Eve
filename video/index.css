@@ -31,13 +31,12 @@
   font-weight: NaN;
   text-align: left;
   line-height: 83px;
-  margin-top: 200px;
   margin: 0 auto;
 }
 
 .image-wrapper_1 {
   background-color: rgba(238, 238, 238, 1);
-  height: 60%;
+  height: auto;
   width: 60%;
   margin-bottom: 300px;
   margin: 0 auto;
