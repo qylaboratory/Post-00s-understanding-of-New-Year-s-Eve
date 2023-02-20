@@ -1,6 +1,6 @@
 (function flexible(window, document) {
   function resetFontSize() {
-    const size = (document.documentElement.clientWidth / 430) * 37.5;
+    const size = (document.documentElement.clientWidth / 1440) * 37.5;
     document.documentElement.style.fontSize = size + 'px';
   }
 
