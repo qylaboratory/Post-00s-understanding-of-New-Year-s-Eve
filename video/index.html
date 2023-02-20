@@ -13,6 +13,26 @@
         <div class="block_1 flex-col">
           <span class="text_1">00后与年味的故事</span>
           <div class="image-wrapper_1 flex-col">
+            <script src="https://cdn.jsdelivr.net/npm/dplayer@1.27.1/dist/DPlayer.min.js"></script>
+            <div id="dplayer"></div>
+            <script>
+            const dp = new DPlayer({
+              container: document.getElementById('dplayer'),
+              screenshot: true,
+              video: {
+                  url: 'https://qyimg.netlify.app/video/课题.mp4',
+                  pic: 'demo.jpg',
+                  thumbnails: 'thumbnails.jpg',
+              },
+              subtitle: {
+                  url: 'webvtt.vtt',
+              },
+              danmaku: {
+                  id: 'demo',
+                  api: 'https://api.prprpr.me/dplayer/',
+              },
+            });
+            </script>
             <video id="MyVideo" src="https://qyimg.netlify.app/video/课题.mp4" autoplay controls style="width:100%;display:block;margin:0px auto;height:auto"></video>
           </div>
         </div>
