@@ -16,8 +16,8 @@
 
 .block_1 {
   background-color: rgba(25, 18, 33, 0.63);
-  width: 80%;
-  height: 60%;
+  width: 100%;
+  height: 100%;
   justify-content: flex-center;
 }
 
