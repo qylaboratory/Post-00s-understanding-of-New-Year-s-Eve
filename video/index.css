@@ -34,7 +34,7 @@ a{TEXT-DECORATION:none}
   height: 162px;
   overflow-wrap: break-word;
   color: rgba(175, 141, 141, 1);
-  font-size: 64px;
+  font-size: 45px;
   text-align: left;
   line-height: 83px;
   margin-top: 75px;
@@ -45,6 +45,7 @@ a{TEXT-DECORATION:none}
 
 .image-wrapper_1 {
   background-color: rgba(238, 238, 238, 1);
+  min-width: 370px;
   height: auto;
   width: 60%;
   margin-bottom: 300px;
